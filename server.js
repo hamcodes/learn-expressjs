@@ -7,7 +7,11 @@ app.get("/", function(req, res){
 });
 
 app.get("/contact", function(req, res){
-  res.send("Contact me at: jeremy@gmail.com");
+  res.send("Contact me at: ");
+});
+
+app.get("/about", function(req, res){
+  res.send("This is my first attempt at using express!");
 });
 
 app.listen(3000, function(){
